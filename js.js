@@ -34,7 +34,7 @@ let b1 = document.querySelector(".but1");
 let b2 = document.querySelector(".but2");
 let b3 = document.querySelector(".but3");
 
-let sections = document.querySelectorAll(".section1", ".section2", ".section3");
+let sections = document.querySelectorAll(".section1, .section2, .section3");
 
 function ShowSection(ourClass){
   sections.forEach(function(section){
